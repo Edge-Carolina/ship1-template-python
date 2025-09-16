@@ -70,7 +70,7 @@ python -m ship1 --help
 2. **Branch name**: `firstname-lastname`
 3. **What you completed**: Baseline or Hard Mode
 
-**Submit:** [Google Form](https://forms.gle/uoAQkv48QDkEM81m9)
+**Submit:** [Google Form](https://forms.gle/3woXg71w48ps4qdo9)
 
 ---
 

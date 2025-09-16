@@ -27,8 +27,8 @@ git config --global user.email "yourname@unc.edu"
 
 **Examples:**
 ```bash
-git config --global user.name "Grace Zhang"
-git config --global user.email "glz@unc.edu"
+git config --global user.name "Will Zellers"
+git config --global user.email "willzellers@unc.edu"
 ```
 
 ### Verify it worked:

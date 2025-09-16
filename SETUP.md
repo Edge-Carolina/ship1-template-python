@@ -146,7 +146,7 @@ Once your repository is open in your IDE:
 
 4. **Test that everything works:**
    ```bash
-   python -m ship1 --help
+   python -m src.ship1 --help
    ```
 
    **You should see help text appear!**
@@ -197,7 +197,7 @@ Once setup is complete, head to [DEVELOPMENT.md](DEVELOPMENT.md) to start coding
 
 **Quick test to make sure everything works:**
 ```bash
-python -m ship1 --help
+python -m src.ship1 --help
 ```
 
 If you see help text, you're all set!

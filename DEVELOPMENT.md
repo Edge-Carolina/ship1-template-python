@@ -34,8 +34,8 @@ Look for **TODO comments** in the code - these tell you exactly what to add!
 
 **Test it:**
 ```bash
-python -m ship1 add "My first entry!"
-python -m ship1 list
+python -m src.ship1 add "My first entry!"
+python -m src.ship1 list
 ```
 You should see your entry with a timestamp!
 
@@ -46,12 +46,12 @@ You should see your entry with a timestamp!
 **What to add:**
 1. **Delete entries by number:**
    ```bash
-   python -m ship1 delete 2  # Removes the 2nd entry
+   python -m src.ship1 delete 2  # Removes the 2nd entry
    ```
 
 2. **Search for entries:**
    ```bash
-   python -m ship1 search "python"  # Finds entries with "python" in them
+   python -m src.ship1 search "python"  # Finds entries with "python" in them
    ```
 
 ---
@@ -68,12 +68,12 @@ pytest -q
 **Test your features manually:**
 ```bash
 # Test adding with timestamp
-python -m ship1 add "Test entry"
-python -m ship1 list
+python -m src.ship1 add "Test entry"
+python -m src.ship1 list
 
 # Test hard mode (if you did it)
-python -m ship1 delete 1
-python -m ship1 search "test"
+python -m src.ship1 delete 1
+python -m src.ship1 search "test"
 ```
 
 ---

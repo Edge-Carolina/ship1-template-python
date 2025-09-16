@@ -1,5 +1,5 @@
 from pathlib import Path
-from ship1.storage import add_entry, load_entries, clear_entries, data_path, delete_entry, search_entries
+from src.ship1.storage import add_entry, load_entries, clear_entries, data_path, delete_entry, search_entries
 import os, json
 
 def test_add_and_list(tmp_path: Path, monkeypatch):

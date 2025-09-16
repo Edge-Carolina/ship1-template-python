@@ -1,4 +1,4 @@
-from ship1.stats import mean_length
+from src.ship1.stats import mean_length
 
 def test_mean_length_basic():
     items = ["abc", "abcd", "a"]

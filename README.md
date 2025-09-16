@@ -78,7 +78,7 @@ python -m ship1 --help
 
 - **[GLOSSARY.md](GLOSSARY.md)** - Explains confusing technical terms
 - **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solutions to common problems
-- **Slack** - Ask your classmates and instructors
+- **Slack** - Ask your labmates and Exec Team
 - **Office Hours** - Get personalized help
 
 **Remember:** Every expert was once a beginner!

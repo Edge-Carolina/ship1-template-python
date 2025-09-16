@@ -172,7 +172,7 @@ This runs all the test files and shows you if your code works.
 
 ### Need more help?
 1. **Check the [GLOSSARY.md](GLOSSARY.md) file** - it explains confusing words
-2. **Ask in Slack** - your classmates and instructors are there to help
+2. **Ask in Slack** - your labmates and Exec Team are there to help
 3. **Come to office hours** - we love helping people debug their code
 4. **Don't give up!** - every expert was once a beginner
 

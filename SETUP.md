@@ -67,42 +67,52 @@ git config --global user.email
 
 ---
 
-## Step 2: Download Your Copy to Your Computer
+## Step 2: Download Your Copy to Your Computer Using Your IDE
 
 **Don't know what these words mean?** Check the [GLOSSARY.md](GLOSSARY.md) file!
 
-1. **Open Terminal** (Mac) or **Command Prompt** (Windows)
-
-2. **Navigate to where you want your project:**
-   ```bash
-   cd Desktop
-   # (This puts it on your Desktop - change if you want it somewhere else)
+### Using VS Code (Recommended):
+1. **Open VS Code**
+2. **Go to File > Open Folder** and create/select a folder for your projects (like `Desktop/Projects`)
+3. **Click the Source Control icon** on the left sidebar (looks like a branch)
+4. **Click "Clone Repository"**
+5. **Enter your repository URL:**
    ```
-
-3. **Download your repository:**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/edge-f25-ship1-YOUR-FIRSTNAME-LASTNAME.git
+   https://github.com/YOUR-USERNAME/edge-f25-ship1-YOUR-FIRSTNAME-LASTNAME.git
    ```
-
    **Replace YOUR-USERNAME and YOUR-FIRSTNAME-LASTNAME with your actual info!**
 
-4. **Go into your project folder:**
-   ```bash
-   cd edge-f25-ship1-YOUR-FIRSTNAME-LASTNAME
+6. **Choose where to save it** and click "Select Repository Location"
+7. **VS Code will download your repository** and ask if you want to open it
+8. **Click "Open"** to start working
+
+### Using Cursor IDE:
+1. **Open Cursor**
+2. **Go to File > Clone Repository**
+3. **Enter your repository URL:**
    ```
-
-5. **Create your personal branch:**
-   ```bash
-   git checkout -b firstname-lastname
+   https://github.com/YOUR-USERNAME/edge-f25-ship1-YOUR-FIRSTNAME-LASTNAME.git
    ```
+   **Replace YOUR-USERNAME and YOUR-FIRSTNAME-LASTNAME with your actual info!**
+4. **Choose where to save it** and click "Clone"
+5. **Cursor will download and open your repository**
 
-   **Use YOUR actual first and last name! (Example: `john-smith`)**
+### After Cloning - Create Your Branch:
+Once your repository is open in your IDE:
 
-   **What's a branch?** Think of it like this:
-   - **main** (or master) = The "official" version of the code (don't touch this!)
-   - **your branch** (like `grace-zhang`) = Your personal workspace where you make changes
-   - You can experiment on your branch without breaking the main project
-   - When you're done, your branch gets merged back into main
+1. **Look for the Source Control panel** (usually on the left)
+2. **Click the branch icon** or look for branch options
+3. **Create a new branch** named `firstname-lastname`
+   - **Use YOUR actual first and last name! (Example: `john-smith`)**
+4. **Switch to your new branch**
+
+**What's a branch?** Think of it like this:
+- **main** (or master) = The "official" version of the code (don't touch this!)
+- **your branch** (like `grace-zhang`) = Your personal workspace where you make changes
+- You can experiment on your branch without breaking the main project
+- When you're done, your branch gets merged back into main
+
+**Tip:** Your IDE will show you which branch you're on in the bottom-left corner!
 
 ---
 

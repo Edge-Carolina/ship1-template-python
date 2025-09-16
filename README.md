@@ -1,6 +1,6 @@
 # Ship 1 - Python Track
 
-**Welcome to Edge Carolina!** This is your Ship 1 project - adding timestamps to a Python CLI app.
+**Welcome to Edge Labs!** This is your Ship 1 project - adding timestamps to a Python CLI app.
 
 ---
 

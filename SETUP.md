@@ -136,7 +136,7 @@ git config --global user.email
 
 4. **Test that everything works:**
    ```bash
-   python -m ship1 --help
+   python -m src.ship1 --help
    ```
 
    **You should see help text appear!**

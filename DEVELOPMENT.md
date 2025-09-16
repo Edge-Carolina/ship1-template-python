@@ -1,6 +1,6 @@
 # Development Guide
 
-**How to code, test, and debug your Edge Carolina Ship 1 project**
+**How to code, test, and debug your Edge Labs Ship 1 project**
 
 ---
 

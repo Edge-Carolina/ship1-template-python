@@ -1,10 +1,10 @@
-# 💻 Development Guide
+# Development Guide
 
 **How to code, test, and debug your Edge Carolina Ship 1 project**
 
 ---
 
-## 🎯 What You're Building
+## What You're Building
 
 You're going to add cool new features to a simple app that keeps track of your daily notes (like a diary for coders!).
 
@@ -15,11 +15,11 @@ You're going to add cool new features to a simple app that keeps track of your d
 
 ---
 
-## 📝 What You Need to Build
+## What You Need to Build
 
 Look for **TODO comments** in the code - these tell you exactly what to add!
 
-### 🥉 Baseline (Everyone Must Do This)
+### Baseline (Everyone Must Do This)
 
 **Goal:** Add timestamps to your entries so you know when you wrote them.
 
@@ -39,7 +39,7 @@ python -m ship1 list
 ```
 You should see your entry with a timestamp!
 
-### 🏆 Hard Mode (Optional Challenge)
+### Hard Mode (Optional Challenge)
 
 **Goal:** Add delete and search features.
 
@@ -56,13 +56,14 @@ You should see your entry with a timestamp!
 
 ---
 
-## 🧪 Testing Your Work
+## Testing Your Work
 
 **Run the automatic tests:**
 ```bash
 pytest -q
 ```
-✅ **All tests should pass!**
+
+**All tests should pass!**
 
 **Test your features manually:**
 ```bash
@@ -77,43 +78,43 @@ python -m ship1 search "test"
 
 ---
 
-## 🔍 Understanding the Code Structure
+## Understanding the Code Structure
 
 ### Project Layout
 ```
 ship1-template-python/
-├── src/ship1/
-│   ├── __init__.py
-│   ├── __main__.py     # Entry point for the app
-│   ├── cli.py          # Command line interface
-│   ├── storage.py      # Data storage functions
-│   └── stats.py        # Statistics functions
-├── tests/
-│   ├── test_storage.py # Tests for storage functions
-│   └── test_stats.py   # Tests for stats functions
-└── data/
-    └── log.json        # Where your data is stored
+- src/ship1/
+  - __init__.py
+  - __main__.py     # Entry point for the app
+  - cli.py          # Command line interface
+  - storage.py      # Data storage functions
+  - stats.py        # Statistics functions
+- tests/
+  - test_storage.py # Tests for storage functions
+  - test_stats.py   # Tests for stats functions
+- data/
+  - log.json        # Where your data is stored
 ```
 
 ### Key Files Explained
 
-**storage.py** 📦
+**storage.py**
 - Handles saving and loading your ship log entries
 - Contains functions like `add_entry()`, `get_entries()`, etc.
 - Uses JSON to store data in `data/log.json`
 
-**cli.py** 💻
+**cli.py**
 - Handles command line commands (`add`, `list`, `delete`, `search`)
 - Connects user input to storage functions
 - Formats output for display
 
-**__main__.py** 🚀
+**__main__.py**
 - Entry point that runs when you type `python -m ship1`
 - Starts the CLI application
 
 ---
 
-## 🐛 How to Debug and Test Your Code
+## How to Debug and Test Your Code
 
 **Running tests:**
 ```bash
@@ -152,9 +153,9 @@ This runs all the test files and shows you if your code works.
 
 ---
 
-## 💾 Working with JSON Data
+## Working with JSON Data
 
-**JSON (JavaScript Object Notation)** 📊
+**JSON (JavaScript Object Notation)**
 A way to store data that both humans and computers can read easily.
 
 **JSON in Python:**
@@ -178,18 +179,18 @@ with open('data/log.json', 'r') as f:
 ```
 
 **Data Structures:**
-- **Array/List** 📝: A collection of items in order
-- **Dictionary/Object** 📚: Key-value pairs (like a real dictionary)
-- **String** 📄: Text data
-- **Number** 🔢: Numeric data
+- **Array/List**: A collection of items in order
+- **Dictionary/Object**: Key-value pairs (like a real dictionary)
+- **String**: Text data
+- **Number**: Numeric data
 
 ---
 
-## 📝 Coding Tips
+## Coding Tips
 
 ### Reading Code
 1. Start with the main entry point (`__main__.py`)
-2. Follow the flow: CLI → Storage → Data
+2. Follow the flow: CLI -> Storage -> Data
 3. Look for TODO comments that tell you what to implement
 4. Read existing functions to understand the pattern
 
@@ -223,7 +224,7 @@ def save_data(data):
 
 ---
 
-## 🎯 What to Submit
+## What to Submit
 
 1. **Your repository URL** (should look like: `https://github.com/YOUR-USERNAME/edge-f25-ship1-YOUR-NAME`)
 2. **Your branch name** (should be `firstname-lastname`)
@@ -234,7 +235,7 @@ def save_data(data):
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - **[SETUP.md](SETUP.md)** - How to set up your development environment
 - **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solutions to common problems
@@ -242,7 +243,7 @@ def save_data(data):
 
 ---
 
-## 🤔 Need Help Understanding Code?
+## Need Help Understanding Code?
 
 1. **Read the TODO comments** - they have hints!
 2. **Look at similar functions** in the same file
@@ -250,4 +251,4 @@ def save_data(data):
 4. **Check the [GLOSSARY.md](GLOSSARY.md)** for term definitions
 5. **Ask in Slack** - we're here to help!
 
-Remember: Coding is about solving problems step by step! 🌟
+Remember: Coding is about solving problems step by step!

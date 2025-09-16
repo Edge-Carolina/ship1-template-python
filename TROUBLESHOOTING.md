@@ -1,10 +1,10 @@
-# 🆘 Troubleshooting Guide
+# Troubleshooting Guide
 
 **Common issues and solutions for Edge Carolina Ship 1**
 
 ---
 
-## 🚨 Permission Denied Issues
+## Permission Denied Issues
 
 ### "Permission denied" when pushing
 - **This is normal if you cloned the original template!**
@@ -18,7 +18,7 @@
 
 ---
 
-## 💻 Command Line Issues
+## Command Line Issues
 
 ### "Command not found" errors
 - Make sure your virtual environment is active (you should see `(.venv)`)
@@ -32,7 +32,7 @@
 
 ---
 
-## 🔧 Git Issues
+## Git Issues
 
 ### Git is asking for wrong email/username
 - Run the setup commands in [SETUP.md](SETUP.md)
@@ -48,7 +48,7 @@
 
 ---
 
-## 💻 IDE Issues
+## IDE Issues
 
 ### VS Code / IDE issues
 - Make sure your virtual environment is selected in your IDE
@@ -83,7 +83,7 @@
 
 ---
 
-## 🧪 Testing Issues
+## Testing Issues
 
 ### Tests are failing
 - Read the error message carefully
@@ -96,7 +96,7 @@
 
 ---
 
-## 🐛 Debugging Your Code
+## Debugging Your Code
 
 **Running tests:**
 ```bash
@@ -135,7 +135,7 @@ This runs all the test files and shows you if your code works.
 
 ---
 
-## 🌐 HTML Issues (For Node.js Track)
+## HTML Issues (For Node.js Track)
 
 ### Escaped quotes in HTML
 ```html
@@ -158,7 +158,7 @@ This runs all the test files and shows you if your code works.
 
 ---
 
-## 🤷‍♀️ Still Having Issues?
+## Still Having Issues?
 
 ### "I don't understand the code"
 - Look at the [GLOSSARY.md](GLOSSARY.md) file for definitions
@@ -178,7 +178,7 @@ This runs all the test files and shows you if your code works.
 
 ---
 
-## 📞 Get Help
+## Get Help
 
 **Quick ways to get help:**
 - **Slack**: Ask in the Edge Carolina channel
@@ -191,4 +191,4 @@ This runs all the test files and shows you if your code works.
 - What operating system you're using (Mac/Windows)
 - A screenshot if it's a visual issue
 
-This helps us help you faster! 🚀
+This helps us help you faster!

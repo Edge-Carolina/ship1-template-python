@@ -1,10 +1,10 @@
-# 🛠️ Setup Guide
+# Setup Guide
 
 **Detailed setup instructions for Edge Carolina Ship 1**
 
 ---
 
-## ⚙️ Quick Git Setup (Do This First!)
+## Quick Git Setup (Do This First!)
 
 **Skip this step if Git already works for you!**
 
@@ -36,13 +36,14 @@ git config --global user.email "glz@unc.edu"
 git config --global user.name
 git config --global user.email
 ```
-✅ **You should see your name and UNC email!**
+
+**You should see your name and UNC email!**
 
 ---
 
-## 📋 Step 1: Get Your Own Copy (Using GitHub Template)
+## Step 1: Get Your Own Copy (Using GitHub Template)
 
-**⚠️ IMPORTANT:** Follow these steps EXACTLY to avoid permission problems!
+**IMPORTANT:** Follow these steps EXACTLY to avoid permission problems!
 
 ### Option A: Use GitHub Template (Recommended for beginners)
 
@@ -66,7 +67,7 @@ git config --global user.email
 
 ---
 
-## 💻 Step 2: Download Your Copy to Your Computer
+## Step 2: Download Your Copy to Your Computer
 
 **Don't know what these words mean?** Check the [GLOSSARY.md](GLOSSARY.md) file!
 
@@ -82,7 +83,8 @@ git config --global user.email
    ```bash
    git clone https://github.com/YOUR-USERNAME/edge-f25-ship1-YOUR-FIRSTNAME-LASTNAME.git
    ```
-   ⚠️ **Replace YOUR-USERNAME and YOUR-FIRSTNAME-LASTNAME with your actual info!**
+
+   **Replace YOUR-USERNAME and YOUR-FIRSTNAME-LASTNAME with your actual info!**
 
 4. **Go into your project folder:**
    ```bash
@@ -93,9 +95,10 @@ git config --global user.email
    ```bash
    git checkout -b firstname-lastname
    ```
-   ⚠️ **Use YOUR actual first and last name! (Example: `john-smith`)**
 
-   **🤔 What's a branch?** Think of it like this:
+   **Use YOUR actual first and last name! (Example: `john-smith`)**
+
+   **What's a branch?** Think of it like this:
    - **main** (or master) = The "official" version of the code (don't touch this!)
    - **your branch** (like `grace-zhang`) = Your personal workspace where you make changes
    - You can experiment on your branch without breaking the main project
@@ -103,7 +106,7 @@ git config --global user.email
 
 ---
 
-## 🏠 Step 3: Set Up Your Coding Environment
+## Step 3: Set Up Your Coding Environment
 
 **What's a virtual environment?** It's like a separate workspace for your project. Check [GLOSSARY.md](GLOSSARY.md) for more info!
 
@@ -124,7 +127,7 @@ git config --global user.email
    .\.venv\Scripts\activate
    ```
 
-   ✅ **You should see `(.venv)` at the start of your terminal line now!**
+   **You should see `(.venv)` at the start of your terminal line now!**
 
 3. **Install the packages you need:**
    ```bash
@@ -135,11 +138,12 @@ git config --global user.email
    ```bash
    python -m ship1 --help
    ```
-   ✅ **You should see help text appear!**
+
+   **You should see help text appear!**
 
 ---
 
-## 💾 Step 4: Save Your Work
+## Step 4: Save Your Work
 
 **Save your changes to GitHub:**
 
@@ -157,25 +161,27 @@ git config --global user.email
    ```bash
    git commit -m "Ship 1: Added timestamp feature"
    ```
-   💡 **Write a message that explains what you did!**
+
+   **Write a message that explains what you did!**
 
 4. **Upload to GitHub:**
    ```bash
    git push origin firstname-lastname
    ```
-   ⚠️ **Use YOUR actual branch name!**
+
+   **Use YOUR actual branch name!**
 
 ---
 
-## 🆘 Need Help?
+## Need Help?
 
 - Check the [TROUBLESHOOTING.md](TROUBLESHOOTING.md) file for common issues
 - Still stuck? Ask in the Edge Carolina Slack or come to office hours
-- Remember: Every expert was once a beginner! 🌟
+- Remember: Every expert was once a beginner!
 
 ---
 
-## ✅ Ready for Development?
+## Ready for Development?
 
 Once setup is complete, head to [DEVELOPMENT.md](DEVELOPMENT.md) to start coding!
 
@@ -184,4 +190,4 @@ Once setup is complete, head to [DEVELOPMENT.md](DEVELOPMENT.md) to start coding
 python -m ship1 --help
 ```
 
-If you see help text, you're all set! 🚀
+If you see help text, you're all set!
